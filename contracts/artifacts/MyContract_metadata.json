@@ -17,6 +17,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_updateString",
+						"type": "string"
+					}
+				],
+				"name": "updateOurString",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -47,10 +60,10 @@
 	},
 	"sources": {
 		"contracts/MyContract.sol": {
-			"keccak256": "0xd898a321ad299d75864ad1dbccefc73fb696d75edf692dc34aa8b20acfc6c1e4",
+			"keccak256": "0xfd0422691e3d35d7b865beeafa8e2add0b1a557283b71fa06b45d1859c4601f9",
 			"urls": [
-				"bzz-raw://d8f4a7b4d845557da0474ec1512fdcdb3192959a3a89b58b7786bc43e236e51f",
-				"dweb:/ipfs/QmX7exUqEs3xsAndwApBW3VqXM2C9rYrGDxMvcDP7Kb5XL"
+				"bzz-raw://6b2fa9e1bf8b1fab9b2b022d065e1166e0bf5f84eec8bf56213486d6788e94e2",
+				"dweb:/ipfs/QmZdqi2nWpJXHoEC7cLxRiCs6XKicQ4hYY73ZRZ4xpB2UN"
 			]
 		}
 	},
