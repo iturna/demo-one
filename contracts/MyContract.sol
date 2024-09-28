@@ -1,12 +1,13 @@
-//SPDX-Licence-Identifier: MIT
+// //SPDX-License-Identifier: MIT
 
-pragma solidity 0.8.26;
+// pragma solidity 0.8.26;
 
-contract MyContract {
+// contract MyContract {
 
-    string public ourString = "World!123123";
+//     string public ourString = "World!123123";
 
-    function updateOurString(string memory _updateString) public {
-        ourString = _updateString;
-    }
-}
+//     function updateOurString(string memory _updateString) public {
+//         ourString = _updateString;
+//     }
+    
+// }
