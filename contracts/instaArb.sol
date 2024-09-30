@@ -163,4 +163,13 @@ contract InstaArb is Ownable {
     token.transfer(msg.sender, token.balanceOf(address(this)));
   }
 
+    function depositTokens(address tokenAddress, uint256 _amount) public {
+        IERC20(tokenAddress).transferFrom(msg.sender, address(this), _amount);
+    }
+
+    function getContractTokenBalance(address tokenAddress) public view returns (uint256) {
+        return IERC20(tokenAddress).balanceOf(address(this));
+    }
+
+
 }
