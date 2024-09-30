@@ -1,4 +1,4 @@
-//SPDX-License-Identifier: Unlicense
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
 import "hardhat/console.sol";
@@ -162,5 +162,14 @@ contract InstaArb is Ownable {
     IERC20 token = IERC20(tokenAddress);
     token.transfer(msg.sender, token.balanceOf(address(this)));
   }
+
+    function depositTokens(address tokenAddress, uint256 _amount) public {
+        IERC20(tokenAddress).transferFrom(msg.sender, address(this), _amount);
+    }
+
+    function getContractTokenBalance(address tokenAddress) public view returns (uint256) {
+        return IERC20(tokenAddress).balanceOf(address(this));
+    }
+
 
 }
