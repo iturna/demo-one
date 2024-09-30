@@ -52,78 +52,6 @@
 				"type": "event"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "router",
-						"type": "address"
-					},
-					{
-						"internalType": "address",
-						"name": "_tokenIn",
-						"type": "address"
-					},
-					{
-						"internalType": "address",
-						"name": "_tokenOut",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_amount",
-						"type": "uint256"
-					}
-				],
-				"name": "getAmountOutMin",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_tokenContractAddress",
-						"type": "address"
-					}
-				],
-				"name": "getBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_tokenContractAddress",
-						"type": "address"
-					}
-				],
-				"name": "getBalanceOwner_",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "owner",
 				"outputs": [
@@ -134,26 +62,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "recoverEth",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "tokenAddress",
-						"type": "address"
-					}
-				],
-				"name": "recoverTokens",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -243,11 +151,11 @@
 			]
 		},
 		"contracts/instaArb.sol": {
-			"keccak256": "0xa2c4018f25fc10a221ca23e2af69a731743a1d44c4a8666e269703ba45393e5e",
+			"keccak256": "0xc7ac7a62c27a2152b2a3999bf967ca2224a963dacc061a1297fcf270ab0ce4e8",
 			"license": "Unlicense",
 			"urls": [
-				"bzz-raw://76e0b96cae00fa6cbc1ab49b4b6a464ddc3551fb80d5bb660f039f4ffa5613c1",
-				"dweb:/ipfs/QmQBeMXL8HbBV3KTKryJb5BZSgEb97TMWeW68iQ31oAKwi"
+				"bzz-raw://8774d594c7690fc29feac66b46c384d24a7db718ad8755c71ce388890c36a2a4",
+				"dweb:/ipfs/QmbVWENtratcw8yEA8gQrbiCRjmRSj9mvH6qUT1RJpDFFR"
 			]
 		},
 		"hardhat/console.sol": {
